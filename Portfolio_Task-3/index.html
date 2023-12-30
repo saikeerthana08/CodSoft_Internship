@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+
+    <!--Adding font awesome cdn link -->
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&family=Poppins:ital,wght@1,100&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1de151d859.js" crossorigin="anonymous"></script>
+
+    <!-- Css File -->
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+
+    <!-- Header section -->
+    <header>
+        <div class="user">
+            <h1>DSK</h1>
+            <h3>Sai Keerthana Dasari</h3>
+        </div>
+
+        <nav class="navbar">
+            <ul id="menu">
+                <li> <a class="menuItem" href="#home">Home</a></li>
+                <li><a class="menuItem" href="#about">About</a></li>
+                <li><a class="menuItem" href="#Project">Projects</a></li>
+                <li><a class="menuItem" href="#contact">Contact</a></li>
+            </ul>
+        
+        <!-- footer -->
+        <div class="footer">
+            <p>&copy; Copyright 2023<br>Designed By Sai Keerthana</p>
+        </div>
+
+            <!-- mobile nav toggle -->
+            <i class="fa-solid fa-bars" id="MenuBtn"></i>
+
+        </nav>
+
+    </header>
+
+    <section id="home">
+        <div class="home-row">
+            <h1 style="color:black">Hello, I'm</h1>
+            <h2>Sai Keerthana Dasari</h1>
+            <p>I'm a <span class="auto-input"></span></p>
+        </div>
+        <div class="btn-container">
+           <button> <a href="./pdfs//SAI_KEERTHANA_RESUME.pdf" class="btn" id="download-btn">Download CV</a></button>
+            <button><a href="#contact" class="btn">Hire Me</a></button>
+
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h1 class="heading"> <span> About</span> me</h1>
+        <div class="container1">
+            <h1 class="container-text">Hello, I'm Sai Keerthana, a Full Stack Developer with a passion for crafting exceptional digital experiences. I specialize in bringing both the frontend (HTML,CSS,JavaScript,ReactJS) and backend (NodeJS,Python,ExpressJs) of applications to life while harnessing the power of databases (MySQL) to create seamless and dynamic solutions.</h1>
+
+            <a href="#Project">Checkout Top projects</a>
+        <hr style="color: black; height: 5px;"/>
+        <div class="skills-section pt-5 pb-5">
+                <h1 class="title">
+                    Skills :
+                </h1>
+                <div class="img-container pt-5">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-skills-html-img.png" class="skills-card-image" />
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-skills-css-img.png" class="skills-card-image" />
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-skills-bootstrap-img.png" class="skills-card-image" />
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/portfolio-skills-js-img.png" class="skills-card-image" />
+                <img src="https://www.startertutorials.com/blog/wp-content/uploads/2018/04/python-logo.png" class="skills-card-image" />
+                <img src="https://miro.medium.com/max/1000/1*TGwJKcxY8kGEenRLLedeLw.png" class="skills-card-image" />
+                <img src="https://www.pngfind.com/pngs/m/430-4309307_react-js-transparent-logo-hd-png-download.png" class="skills-card-image" />
+                <img src="https://www.freepnglogos.com/uploads/logo-mysql-png/logo-mysql-mysql-logo-png-transparent-svg-vector-bie-supply-2.png" class="skills-card-image" />
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- Project section -->
+
+    <div class="Project" id="Project">
+        <div class="container">
+            <h1>Projects</h1>
+            <div class="project-list">
+                <div class="project-img">
+                    <img src="https://res.cloudinary.com/dwiaeepef/image/upload/v1703876010/Screenshot_2023-12-30_002246_eazfdi.png" alt="NxtTrendz">
+                    <div class="project-description">
+                        <h3>NxtTrendz website</h3>
+                        <p>Online shopping application, which is similar to Amazon</p>
+                        <a href="https://dsknxttrendz.ccbp.tech/login"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="project-img">
+                    <img src="https://res.cloudinary.com/dwiaeepef/image/upload/v1703876104/Screenshot_2023-12-30_002445_ac7xki.png">
+                    <div class="project-description">
+                        <h3> Tourism website</h3>
+                        <p>A Tourism that helps to travel the places</p>
+                        <a href="https://dsktourismapp.ccbp.tech/"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="project-img">
+                    <img src="https://res.cloudinary.com/dwiaeepef/image/upload/v1691675035/surja-sen-das-raj-y16ku6si6xI-unsplash_gusm0p.jpg">
+                    <div class="project-description">
+                        <h3>Simple Todos App </h3>
+                        <p>Effortlessly organize and manage tasks with this user-friendly to-do app</p>
+                        <a href="https://dsktodolist.ccbp.tech/"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="project-img">
+                    <img src="https://res.cloudinary.com/dwiaeepef/image/upload/v1703875672/Screenshot_2023-12-30_001704_jiplh2.png">
+                    <div class="project-description">
+                        <h3>Jobby App</h3>
+                        <p>Efficient job search app connecting candidates with relevant opportunities.</p>
+                        <a href="https://dskjobby.ccbp.tech"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="project-img">
+                    <img src="https://res.cloudinary.com/dwiaeepef/image/upload/v1703876175/Screenshot_2023-12-30_002601_w5p94k.png">
+                    <div class="project-description">
+                        <h3>Rock Paper Scissors Game</h3>
+                        <p>Modernized Rock, Paper, Scissors game app for exciting decision-making.</p>
+                        <a href="https://dskrockgame.ccbp.tech/"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="project-img">
+                    <img src="https://res.cloudinary.com/dwiaeepef/image/upload/v1703876254/Screenshot_2023-12-30_002721_cajtjo.png">
+                    <div class="project-description">
+                        <h3> IPL Dashboard App</h3>
+                        <p>Instant IPL updates and scores at your fingertips with this dashboard app</p>
+                        <a href="https://dskiplapp.ccbp.tech/"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Project section ends -->
+    <!--contact section  -->
+
+    <div class="contact" id="contact">
+        <div class="container-contact">
+            <div class="contact-section">
+                <div class="contact-left-section">
+                    <h1 class="contact-heading"> Contact Me</h1>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                        <a href="#"><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right-section">
+                    <form>
+                        <input type="text" name="Name" placeholder="your name" required>
+
+                        <input type="email" name="Emai" placeholder="your email" required>
+
+                        <textarea name="text" rows="6" placeholder="your message"></textarea>
+
+                        <button>Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact section end -->
+    <!-- Typed.js file (for typing effect)-->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <!-- main js file -->
+    <script src="script.js"></script>
+    <!--fontawesome js file(icon file)-->
+    <script src="https://kit.fontawesome.com/aa5f332820.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
